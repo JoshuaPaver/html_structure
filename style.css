@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.flexBetween {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flexAlignTop {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.flexColumn {
+  flex-direction: column;
+}
+
+.flexAlignJustifyCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projectContainerPadding {
+  padding: 0px 125px;
+}
+
+/* nav section beginning */
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #ffffff;
+  padding: 15px 125px;
+  box-shadow: 0px 0px 8px 4px #00000024;
+}
+
+.logo {
+  font-size: 25px;
+  color: #000000;
+  font-weight: 900;
+}
+
+.logo span {
+  color: #0d844b;
+}
+
+.nav_menu_icon {
+  display: none;
+}
+
+.nav_menu_icon img {
+  width: 42px;
+  height: 42px;
+}
+
+.subNav {
+  gap: 45px;
+}
+
+.nav_link {
+  gap: 25px;
+}
+
+.nav_link a {
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.nav_auth {
+  gap: 25px;
+}
+
+.nav_auth_button {
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+}
+
+.selectedNavButton {
+  background-color: #0d844b;
+  color: #ffffff;
+  padding: 8px 35px;
+}
+
+/* nav section ending */
+
+/* hero section beginning */
+.hero {
+  width: 100%;
+  height: 697.4px;
+  /* position: relative; */
+  background-image: url(./assets/images/Hero\ images.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* .hero_image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+.hero_content {
+  gap: 82px;
+  width: 50%;
+  text-align: center;
+  /* position: absolute; */
+}
+
+.hero_content h3 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.hero_content button {
+  background-color: #0d844b;
+  border-radius: 10px;
+  padding: 13px 67px;
+  color: #fff;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* hero section ending */
+
+/* Good will secion beginning */
+.good_will {
+  width: 100%;
+  gap: 41px;
+  padding: 32.6px 125px;
+}
+
+.good_will_header {
+  gap: 3px;
+}
+
+.good_will_header h3 {
+  font-size: 40px;
+  font-weight: 400;
+  color: #000;
+}
+
+.good_will_header p {
+  font-size: 29px;
+  font-weight: 400;
+  color: #484848;
+  letter-spacing: 1.45px;
+}
+
+.good_will_description_container {
+  width: 31%;
+  gap: 12px;
+}
+
+.good_will_description_container_image {
+  width: 45px;
+  height: 45px;
+}
+
+.good_will_description_container_details {
+  gap: 8px;
+}
+
+.good_will_description_container_details h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+}
+
+.good_will_description_container_details p {
+  font-size: 17px;
+  font-weight: 400;
+  color: #414040;
+}
+/* Good will secion ending */
+
+/* Footer secion beginning */
+.footer {
+  background-color: #484848;
+  padding: 0px 125px;
+}
+
+.footer_top_container {
+  padding: 21px 0px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.footer_section {
+  gap: 34px;
+}
+
+.footer_mail_section {
+}
+
+.footer_mail_header {
+  gap: 10px;
+}
+
+.footer_mail_header img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer_section_header {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+}
+
+.footer_mail_body {
+  gap: 22px;
+}
+
+.footer_mail_body_input {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.footer_mail_body_textarea_container {
+  gap: 10px;
+}
+
+.footer_mail_body_textarea_container textarea {
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  resize: none;
+  height: 102px;
+}
+
+.footer_mail_body_textarea_container button {
+  outline: none;
+  border: none;
+  background-color: #0d844b;
+  height: 102px;
+  width: 88px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.footer_link_section div {
+  gap: 15px;
+}
+
+.footer_link_section div a {
+  text-decoration: none;
+}
+
+.footer_social_media_body {
+  gap: 44px;
+}
+
+.footer_social_media_body_icons {
+  gap: 13px;
+}
+
+.footer_social_media_body_icons img {
+  width: 45px;
+  height: 45px;
+}
+
+.footer_social_media_body_links {
+  gap: 25px;
+}
+
+.footer_social_media_body_links a {
+  text-decoration: none;
+}
+
+.footer_social_media_body_links div {
+  gap: 25px;
+}
+
+.footer_social_media_body_links div .login {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.footer_social_media_body_links div .signup {
+  background-color: #0d844b;
+  border-radius: 10px;
+  padding: 8px 35px;
+  border: none;
+  outline: none;
+}
+
+.footer_bottom_container {
+  padding: 40px 0px;
+}
+/* Footer secion ending */
+
+/* Responsive Views */
+@media (max-width: 1060px) {
+  .nav {
+    padding: 15px 40px;
+    position: relative;
+  }
+
+  .nav_menu_icon {
+    display: block;
+  }
+
+  .subNav {
+    width: 100vw;
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #fff;
+    flex-direction: column;
+    padding: 30px 40px;
+    align-items: flex-start;
+  }
+
+  .nav_link {
+    flex-direction: column;
+  }
+
+  .nav_auth {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .good_will {
+    padding: 15px 40px;
+  }
+
+  .footer {
+    padding: 0px 40px;
+  }
+}
+
+@media (max-width: 840px) {
+  .good_will_description {
+    flex-wrap: wrap;
+  }
+
+  .good_will_description_container {
+    width: 45%;
+    margin-bottom: 80px;
+  }
+
+  .footer_top_container {
+    flex-wrap: wrap;
+  }
+
+  .footer_section {
+    width: 45%;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .good_will_description_container {
+    width: 100%;
+  }
+
+  .footer_section {
+    width: 100%;
+  }
+}
