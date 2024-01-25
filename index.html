@@ -1,67 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+
     <title>Techpave Internship</title>
+
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
     <!-- Nav bar -->
-    <div>
+    <div class="nav flexBetween">
       <!-- direct children -->
-      <div>
-        <!-- direct child -->
-        <h2>CALListusTIME</h2>
+
+      <h2 class="logo">CALListus<span>TIME</span></h2>
+
+      <div class="nav_menu_icon">
+        <img src="./assets/icons/menu.png" />
       </div>
 
-      <div>
-        <!-- direct children -->
-        <div>
-          <!-- direct children -->
-          <a href="./product.html" style="" class="" id="">Products</a>
-          <a>How it works</a>
+      <div class="flexAlignCenter subNav">
+        <div class="flex nav_link">
+          <a href="./product.html">Products</a>
+          <a href="./how.html">How it works</a>
           <a href="/donate.html">Donate</a>
         </div>
 
-        <div>
-          <!-- direct children -->
-          <button>Login</button>
-          <button>Sign Up</button>
+        <div class="flex nav_auth">
+          <button class="nav_auth_button">Login</button>
+          <button class="nav_auth_button selectedNavButton">Sign Up</button>
         </div>
       </div>
     </div>
 
     <!-- Hero -->
-    <div>
+    <div class="flexAlignJustifyCenter hero">
       <!-- direct child -->
-      <div>
-        <!-- direct children -->
-        <div>
-          <!-- direct child -->
-          <h3>Get The Message Across WEDDINGS</h3>
-        </div>
+      <!-- <img src="./assets/images/Hero images.png" class="hero_image" /> -->
 
-        <div>
-          <!-- direct child -->
-          <button>Get Started</button>
-        </div>
+      <div class="flexAlignJustifyCenter flexColumn hero_content">
+        <!-- direct children -->
+
+        <h3>Get The Message Across WEDDINGS</h3>
+
+        <button>Get Started</button>
       </div>
     </div>
 
     <!-- Good will message -->
-    <div>
+    <div class="projectContainerPadding flex flexColumn good_will">
       <!-- direct children -->
-      <div>
+      <div class="flex flexColumn good_will_header">
         <h3>Goodwill Messaging In Style</h3>
         <p>Let’s make it a bigger celebration</p>
       </div>
 
-      <div>
-        <div>
-          <div>
-            <div></div>
-          </div>
+      <div class="flexBetween good_will_description">
+        <div class="flex flexColumn good_will_description_container">
+          <img
+            src="./assets/icons/Notebook.png"
+            class="good_will_description_container_image"
+          />
 
-          <div>
+          <div class="flex flexColumn good_will_description_container_details">
             <h4>Arrange and export your goodwill messages</h4>
             <p>
               By using callistustime, all your messages will be arranged in one
@@ -71,12 +79,13 @@
           </div>
         </div>
 
-        <div>
-          <div>
-            <div></div>
-          </div>
+        <div class="flex flexColumn good_will_description_container">
+          <img
+            src="./assets/icons/Menu-4.png"
+            class="good_will_description_container_image"
+          />
 
-          <div>
+          <div class="flex flexColumn good_will_description_container_details">
             <h4>Receive goodwill messages</h4>
             <p>
               We help you to manage goodwill messages for your event. With a few
@@ -86,12 +95,13 @@
           </div>
         </div>
 
-        <div>
-          <div>
-            <div></div>
-          </div>
+        <div class="flex flexColumn good_will_description_container">
+          <img
+            src="./assets/icons/Bookmark.png"
+            class="good_will_description_container_image"
+          />
 
-          <div>
+          <div class="flex flexColumn good_will_description_container_details">
             <h4>Share your brochure</h4>
             <p>
               Share the brochure of your event with a larger number of people by
@@ -103,181 +113,87 @@
       </div>
     </div>
 
-    <!-- Easy -->
-    <div>
-      <!-- direct children -->
-      <div>
-        <div>
-          <img src="./assets/visual.jpg" alt="Coding" />
-        </div>
-      </div>
-
-      <div>
-        <h3>Easy, convenient and made with you in mind.</h3>
-        <p>Easy, convenient and made with you in mind.</p>
-      </div>
-    </div>
-
-    <!-- get Started with nothing -->
-    <div>
-      <!-- direct children -->
-      <div>
-        <div><div></div></div>
-
-        <div>
-          <h4>Get Started With Nothing</h4>
-          <p>
-            Setup an account or an event with just name, e-mail address and
-            location
-          </p>
-        </div>
-      </div>
-
-      <div>
-        <div><div></div></div>
-
-        <div>
-          <h4>Send E-Invitation Cards</h4>
-          <p>
-            You can send and e-invitation cards to all invitees with just a
-            click
-          </p>
-        </div>
-      </div>
-
-      <div>
-        <div><div></div></div>
-
-        <div>
-          <h4>Send E-Invitation Cards</h4>
-          <p>
-            You can send and e-invitation cards to all invitees with just a
-            click
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- get started -->
-    <div>
-      <!-- direct child -->
-      <div><button>Get Started</button></div>
-    </div>
-
     <!-- footer -->
-    <div>
+    <div class="footer">
       <!-- direct children -->
-      <div>
+      <div class="footer_top_container">
         <!-- Three Children-->
 
-        <div>
+        <div class="flex flexColumn footer_section footer_mail_section">
           <!--Tow children-->
 
-          <div>
-            <i></i>
+          <div class="flexAlignCenter footer_mail_header">
+            <img src="./assets//icons//sms.png" />
 
-            <h3></h3>
+            <h3 class="footer_section_header">Send us message</h3>
           </div>
 
-          <div></div>
+          <div class="flex flexColumn footer_mail_body">
+            <input placeholder="Full Name" class="footer_mail_body_input" />
+
+            <input placeholder="Email Address" class="footer_mail_body_input" />
+
+            <div class="flexAlignCenter footer_mail_body_textarea_container">
+              <textarea placeholder="Message"></textarea>
+
+              <button>Send</button>
+            </div>
+          </div>
         </div>
 
-        <div>
+        <div class="flex flexColumn footer_section footer_link_section">
           <!--Tow children-->
 
-          <div><h3></h3></div>
+          <h3 class="footer_section_header">Links</h3>
 
-          <div></div>
+          <div class="flex flexColumn">
+            <a href="#" class="footer_section_header">About Us</a>
+
+            <a href="#" class="footer_section_header">How it works</a>
+
+            <a href="#" class="footer_section_header">Contact Us</a>
+
+            <a href="#" class="footer_section_header">Premium Services</a>
+
+            <a href="#" class="footer_section_header">Donate</a>
+
+            <a href="#" class="footer_section_header">Set up an event</a>
+          </div>
         </div>
 
-        <div>
+        <div class="flex flexColumn footer_section footer_social_media_section">
           <!--Tow children-->
 
-          <div></div>
+          <h3 class="footer_section_header">Socials</h3>
 
-          <div></div>
+          <div class="flex flexColumn footer_social_media_body">
+            <div class="flexAlignCenter footer_social_media_body_icons">
+              <img src="./assets/icons/Facebook.png" />
+
+              <img src="./assets/icons/Instagram.png" />
+
+              <img src="./assets/icons/Twitter.png" />
+
+              <img src="./assets/icons/Linkedin.png" />
+
+              <img src="./assets/icons/YouTube.png" />
+            </div>
+
+            <div class="flex flexColumn footer_social_media_body_links">
+              <a href="#" class="footer_section_header">User Links</a>
+
+              <div class="flexAlignCenter">
+                <button class="footer_section_header login">Login</button>
+                <button class="footer_section_header signup">Sign Up</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
 
-      <div></div>
+      <div class="flexAlignJustifyCenter footer_bottom_container">
+        <h3 class="footer_section_header">© 2023 CALListusTIME</h3>
+      </div>
     </div>
   </body>
 </html>
-
-<!-- Containers
-Comments
-Links
-List
-Form -->
-
-<!-- nav bar -->
-<div></div>
-
-<!-- Hero section -->
-<div></div>
-
-<!-- Project -->
-<div></div>
-
-<!-- About us -->
-<div></div>
-
-<!-- Contact -->
-<div></div>
-
-<!-- footer hero section -->
-<div></div>
-
-<!-- footer -->
-<div></div>
-
-<!-- Nav bar -->
-<div></div>
-
-<!-- Food Description -->
-<div></div>
-
-<!-- Food man -->
-<div></div>
-
-<!-- Footer -->
-<div></div>
-
-<!-- Nav Bar -->
-<div></div>
-
-<!-- Hero section -->
-<div></div>
-
-<!-- About Catering -->
-<div></div>
-
-<!-- Our Menu -->
-<div></div>
-
-<!-- Contact -->
-<div></div>
-
-<!-- Footer -->
-<div></div>
-
-<!-- Nav Bar -->
-<div></div>
-
-<!-- Hero Section -->
-<div></div>
-
-<!-- THE BAND -->
-<div></div>
-
-<!-- TOUR DATES -->
-<div></div>
-
-<!-- CONTACT -->
-<div></div>
-
-<!-- Footer Hero section -->
-<div></div>
-
-<!-- Footer -->
-<div></div>
